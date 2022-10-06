@@ -1,6 +1,6 @@
 const repeatString = function() {
 
-    return('hey', 10).toEqual('hey');
+    return('hey', 10);
 };
 
 // Do not edit below this line
