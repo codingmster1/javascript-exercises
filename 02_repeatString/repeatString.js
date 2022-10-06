@@ -7,9 +7,11 @@ const repeatString = function(string, times) {
     }
     return repeatedString;
 
+}
+
 repeatString("hey", 10);
 
-}
+
 
 // Do not edit below this line
 module.exports = repeatString;
