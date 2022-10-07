@@ -1,4 +1,5 @@
 const repeatString = function(string, times) 
+
 {
     if (times > 0)
     return string.repeat(times);
@@ -8,10 +9,10 @@ const repeatString = function(string, times)
 
 repeatString("hey", 3);
 
-function repeatString1(string, times)
+const repeatString1 = function(string, times)
 {
     if (times > 0)
-    return string.repeat(times)
+    return string.repeat(times);
     times = 10;
 }
 
