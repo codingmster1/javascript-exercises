@@ -15,7 +15,7 @@ repeatString("hey", 10);
 
 
 
-
+module.exports = repeatString1;
 // Do not edit below this line
 module.exports = repeatString;
 
