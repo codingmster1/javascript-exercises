@@ -4,6 +4,7 @@ const repeatString = function(str, num)
 }
 
 repeatString("hey", 3);
+repeatString("hey", 10);
 
 
 
