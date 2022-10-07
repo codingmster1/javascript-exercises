@@ -16,7 +16,7 @@ const repeatString1 = function(string, times)
     times = 10;
 }
 
-repeatString1("hey", 10);
+repeatString1("hey", 0);
 
 
 // Do not edit below this line
