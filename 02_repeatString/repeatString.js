@@ -2,7 +2,8 @@ const repeatString = function(string, times)
 {
     if (times > 0)
     return string.repeat(times);
-    else return "";
+    times = 3;
+    
 }
 
 repeatString("hey", 3);
