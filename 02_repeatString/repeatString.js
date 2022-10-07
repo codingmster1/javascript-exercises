@@ -9,7 +9,7 @@ const repeatString = function(string, times)
 
 repeatString("hey", 3);
 
-const repeatString1 = function(string, times)
+let repeatString1 = function(string, times)
 {
     if (times > 0)
     return string.repeat(times);
