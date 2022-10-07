@@ -8,14 +8,14 @@ const repeatString = function(string, times)
 
 repeatString("hey", 3);
 
-function repeatString(string, times)
+function repeatString1(string, times)
 {
     if (times > 0)
     return string.repeat(times)
     times = 10;
 }
 
-repeatString("hey", 10);
+repeatString1("hey", 10);
 
 
 // Do not edit below this line
