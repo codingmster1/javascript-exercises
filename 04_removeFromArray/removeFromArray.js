@@ -1,9 +1,7 @@
-const removeFromArray = function() {
-let removeFromArray = [1, 2, 3, 4,];
-let values = [1, 2, 4];
+const removeFromArray = function(arr, three) {
+var arr = [1, 2, 3, 4];
+var three = arr.splice(3);
 
-removeFromArray = removeFromArray.filter(item => !values.includes(item));
-console.log(removeFromArray);
 
 }
 
