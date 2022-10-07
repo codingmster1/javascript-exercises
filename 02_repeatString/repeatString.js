@@ -1,16 +1,11 @@
-const repeatString = function(string, times) {
-
-    var repeatedString = "";
-    while (times > 0) {
-        repeatedString += string;
-        times--;
-        times++;
-    }
-    return repeatedString;
-
+const repeatString = function(str, num) 
+{
+    return str;
 }
 
-repeatString("hey", 10);
+repeatString("hey", 3);
+
+
 
 
 
