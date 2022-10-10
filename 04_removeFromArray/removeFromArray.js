@@ -5,7 +5,7 @@ const removeFromArray = function(arr) {
     return arr.filter(function(x) {return badValues.indexOf(x) == -1;});
 
 }
-removeFromArray([1, 2, 3, 4], 3, 4);
+removeFromArray([1, 2, 3, 4], 3).toEqual([1, 2, 4]);
 
 
 // Do not edit below this line
