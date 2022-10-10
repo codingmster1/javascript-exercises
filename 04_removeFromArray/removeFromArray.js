@@ -6,6 +6,7 @@ const removeFromArray = function(arr) {
 
 }
 console.log([1, 2, 3, 4], 3);
+console.log([1, 2, 3, 4], 1, 2);
 
 
 // Do not edit below this line
