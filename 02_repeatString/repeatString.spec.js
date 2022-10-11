@@ -2,10 +2,10 @@ const repeatString = require('./repeatString')
 
 describe('repeatString', () => {
   test('repeats the string', () => {
-    expect('hey', 3).toEqual('heyheyhey');
+    expect(repeatString('hey', 3)).toEqual('heyheyhey');
   });
   test('repeats the string many times', () => {
-    expect('hey', 10).toEqual('heyheyheyheyheyheyheyheyheyhey');
+    expect(repeatString('hey', 10)).toEqual('heyheyheyheyheyheyheyheyheyhey');
   });
   test('repeats the string 1 times', () => {
     expect(repeatString('hey', 1)).toEqual('hey');
