@@ -1,12 +1,16 @@
-const removeFromArray = function(arr) {
+const removeFromArray = function(...args) {
+const array = args[0];
+const newArray = [];
+array.forEach((item) => {
+    if(!args.includes(item)) {
+    newArray.push(item);
+    console.log(newArray);
+    }
+})
+ return newArray;  
 
-    var badValues = Array.prototype.slice.call(arguments);
-    badValues.shift(); 
-    return arr.filter(function(x) {return badValues.indexOf(x) == -1;});
+};
 
-}
-console.log([1, 2, 3, 4], 3);
-console.log([1, 2, 3, 4], 1, 2);
 
 
 // Do not edit below this line
