@@ -8,7 +8,7 @@ describe('repeatString', () => {
     expect('hey', 10).toEqual('heyheyheyheyheyheyheyheyheyhey');
   });
   test('repeats the string 1 times', () => {
-    expect(repeatString('hey', 1)).toEqual('hey');
+    expect(('hey', 1)).toEqual('hey');
   });
   test('repeats the string 0 times', () => {
     expect(('hey', 0)).toEqual('');
