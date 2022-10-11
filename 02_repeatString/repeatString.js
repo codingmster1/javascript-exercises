@@ -1,22 +1,12 @@
-const repeatString = function(string, times) 
-
-{
-    if (times > 0)
-    return string.repeat(times);
-    times = 3;
-    
-
-
-repeatString("hey", 3);
-
-var repeatString1 = function(string, times)
-{
-    if (times > 0)
-    return string.repeat(times);
-    times = 10;
+const repeatString = function(word, times) {
+let string = "";
+if (times < 0) {
+    return "ERROR";
 }
-
-repeatString1("hey", 10);
+    for (let i = 0; i < times; i++) {
+        string = string + word;
+    }
+    return string;
 
 }
 // Do not edit below this line
