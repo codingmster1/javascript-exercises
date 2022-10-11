@@ -1,13 +1,13 @@
 const sumAll = function(a, d, range=[]) {
 
-    if (a < 0 || b < 0) return 'ERROR'
-    if (isNaN(a) || isNaN(b)) return 'ERROR'
+    if (a < 0 || d < 0) return 'ERROR'
+    if (isNaN(a) || isNaN(d)) return 'ERROR'
 
     for (let i = Math.min(a, d); i<= Math.max(a, d); i++) {
         range.push(i)
     }
 
-    return range.reduce((a, d) => a + b) 
+    return range.reduce((a, d) => a + d) 
 }
 
 console.log(sumAll(1,10));
