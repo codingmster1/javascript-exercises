@@ -1,22 +1,27 @@
-const sumAll = function(a, d, range=[]) {
+const sumAll = function(num1, num2) {
+let error = "ERROR";
+let finalSum = 0;
 
-    if (a < 0 || d < 0) return 'ERROR'
-    if (isNaN(a) || isNaN(d)) return 'ERROR'
 
-    for (let i = Math.min(a, d); i<= Math.max(a, d); i++) {
-        range.push(i)
+let biggerValue = Math.max(num1, num2);
+let smallerValue = Math.min(num1, num2);
+
+
+if (((typeof num1 === "string")) || (typeof num2 == "string")) {
+    return error;
+} else if (((typeof num1 === "object")) || (typeof num2 === "object")) {
+    return error;
+} else if ((biggerValue >= 0) && (smallerValue >= 0)) {
+    for (let i = smallerValue; i <= biggerValue; i++) {
+        finalSum = finalSum + i;
     }
 
-    return range.reduce((a, d) => a + d) 
+} else return error;
+return finalSum;
+
 }
 
-console.log(sumAll(1,10));
-console.log(sumAll(10,1));
-console.log(sumAll(-10,1));
-console.log(sumAll(1,-10));
-console.log(sumAll(1,'a'));
-console.log(sumAll('a',1));
-console.log(sumAll('a',-1));
+
 
 
 
