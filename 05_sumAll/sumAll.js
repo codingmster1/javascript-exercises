@@ -19,7 +19,7 @@ if (((typeof num1 === "string")) || (typeof num2 == "string")) {
 } else return error;
 return finalSum;
 
-}
+};
 
 
 
